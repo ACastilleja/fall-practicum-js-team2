@@ -26,7 +26,7 @@ export const FeatureHighlights: React.FC = () => {
             </header>
             <div className="features-grid">
                 {features.map((feature, index) => (
-                    <article kep={index} className="feature-card">
+                    <article key={index} className="feature-card">
                         <span className="feature-icon" role="img" aria-label={feature.title}>{feature.icon}</span>
                         <h3 className="feature-title">{feature.title}</h3>
                         <p className="feature-description">{feature.description}</p>
