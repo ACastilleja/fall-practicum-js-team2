@@ -1,4 +1,4 @@
-/* --- Base Reset & Typography --- */
+/* --- Base & Typography --- */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -216,7 +216,7 @@ main {
     color: #4f46e5;
     text-decoration: none;
 }
-/* --- Mobile Responsiveness --- */
+/* --- Mobile Responsiveness--- */
 @media (max-width: 768px) {
     .hero-section {
     grid-template-columns: 1fr;
@@ -227,7 +227,7 @@ main {
     justify-content: center;
     }
     .nav-links {
-    display: none; /* simple collapse for mobile */
+    display: none; 
     }
     .footer-content {
     flex-direction: column;
